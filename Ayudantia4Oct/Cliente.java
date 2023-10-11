@@ -23,7 +23,7 @@ public class Cliente {
     // Setter
     public void setCreditoPorCobrar(int creditoPorCobrar) {this.creditoPorCobrar = creditoPorCobrar;}
 
-    // Métodos
+    // Métodos o Reglas de Negocio
     public void mostrarInformacionCuenta() {
         System.out.println("El cliente "+getNombre()+" tiene una cuenta con ID "+getCuentaBancaria().getIdCuentaBancaria()+" con un saldo en debito de "+getCuentaBancaria().getSaldoDebito()+" y un saldo de credito"+getCuentaBancaria().getSaldoCreditoActual());
     }
