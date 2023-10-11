@@ -12,7 +12,7 @@ public class Main {
         String rut = sc.nextLine();
 
         Cliente cliente = new Cliente(nombre, rut, new CuentaBancaria(rut));
-
+        
         int opcion;
         do {
             System.out.println("Bienvenido " + cliente.getNombre() + ", ¿Qué desea hacer?");
@@ -22,9 +22,8 @@ public class Main {
             System.out.println("4. Retirar dinero");
             System.out.println("5. Realizar un avance");
             System.out.println("6. Salir");
-
             opcion = sc.nextInt();
-
+            
             switch (opcion) {
                 case 1:
                     cliente.mostrarInformacionCuenta();

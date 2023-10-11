@@ -67,8 +67,7 @@ public class Cliente {
             }
         }
         sc.close();
-    }
-            
+    }            
     public void pagarCreditoconDebito(int montoPagar) {
         int saldoCreditoActual = getCuentaBancaria().getSaldoCreditoActual();
         int saldoDebito = getCuentaBancaria().getSaldoDebito();
