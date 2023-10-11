@@ -1,3 +1,5 @@
+package Ayudantia4Oct;
+
 import java.util.Scanner;
 
 public class Cliente {

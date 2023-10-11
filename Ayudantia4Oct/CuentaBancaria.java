@@ -1,3 +1,5 @@
+package Ayudantia4Oct;
+
 public class CuentaBancaria {
     private String idCuentaBancaria;
     private int saldoDebito;
